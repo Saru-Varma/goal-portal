@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(135deg, #f4f7fb, #e9eef7);
+}
+
+/* MAIN WRAPPER */
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+/* CARD */
+.card {
+  background: white;
+  padding: 30px;
+  width: 600px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+/* HEADINGS */
+h1 {
+  margin-bottom: 10px;
+  color: #1e293b;
+}
+
+h2 {
+  margin-top: 25px;
+  color: #334155;
+}
+
+/* INPUT FIELDS */
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.2s;
+  font-size: 14px;
+}
+
+input:focus,
+select:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 5px rgba(37, 99, 235, 0.3);
+}
+
+/* BUTTON */
+button {
+  margin-top: 15px;
+  padding: 12px;
+  width: 100%;
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #1d4ed8, #1e40af);
+  transform: scale(1.02);
+}
+
+/* GOAL CARD */
+.goalCard {
+  border: 1px solid #e5e7eb;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+  background: #f9fafb;
+  transition: 0.2s;
+}
+
+.goalCard:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+/* TEXT */
+.goalCard h3 {
+  margin: 0;
+  color: #111827;
+}
+
+.goalCard p {
+  margin: 5px 0;
+  color: #374151;
+}
+
+/* EMPTY STATE */
+.empty {
+  text-align: center;
+  padding: 20px;
+  color: #6b7280;
+}

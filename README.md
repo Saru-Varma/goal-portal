@@ -64,18 +64,7 @@ goal-portal/
 
 ---
 
-# 📊 PROGRESS LOGIC
 
-Numeric / Percentage:
-(progress = (achievement / target) * 100)
-
-Zero Based:
-(if achievement == 0 → 100%)
-
-Timeline:
-(if Completed → 100%)
-
----
 
 # 🔗 API ROUTES
 
@@ -106,24 +95,7 @@ npm start
 
 ---
 
-# 🌐 DEPLOYMENT
-
-Backend → Render
-Frontend → Vercel
-Database → MongoDB Atlas
-
----
-
 # 👨‍💻 AUTHOR
 
 Atla 
 Saru Varma
-
----
-
-# ⭐ STATUS
-
-✔ Full Stack Completed
-✔ Backend Ready
-✔ Frontend Ready
-✔ Deployment Ready
